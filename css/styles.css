@@ -210,15 +210,14 @@ max-width: 496px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0 ,0 ,0);
-    border: 0;
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 }
 .title-second {
