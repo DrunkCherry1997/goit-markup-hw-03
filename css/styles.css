@@ -286,6 +286,18 @@ max-width: 496px;
     flex-direction: row;
     gap: 24px;
 }
+.name-position {
+    padding: 32px 0;
+}
+
+.advantages-title {
+    text-align: center; 
+    margin-bottom: 8px;
+}
+
+.job-position {
+   text-align: center; 
+}
 
 .team-list-item {
     flex-basis: calc((100% - 72px) /4);
