@@ -146,7 +146,12 @@ margin-right: 76px
     
     
 }
-
+.list-adress-itemone {
+margin-right: 40px;
+}
+.list-adress-itemtwo {
+margin-right: 0;
+}
 .live-connection {
     color: #434455;
 }
