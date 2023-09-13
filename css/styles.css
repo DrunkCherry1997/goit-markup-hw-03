@@ -3,8 +3,26 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
 
 /* Навігація */
+.header {
+padding-bottom: 188px;
+background-color: var(--WHITE, #FFF);
+}
 .header .logo-style {
     content: "Web";
     
@@ -23,14 +41,29 @@ body {
 
 .logo-style {
     text-decoration: none;
+    padding: 24px 1169px 24px 156px; 
+    
+ 
+   
 }
 
 .header .logo-style span.first-studio {
     color: #2e2f42;
+    padding: 24px 1169px 24px 156px;
 }
 
 .first-studio {
     color: #2e2f42;
+padding: 24px 1169px 24px 156px;
+}
+
+.navigation-list-style {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    padding-left: 347px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-nav {
@@ -67,6 +100,10 @@ body {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
+    margin-right: 156px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 332px;
 }
 
 .link:hover {
@@ -82,6 +119,16 @@ body {
     color: #404bbf
 }
 
+.list-adress-style {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: end; 
+    
+    padding-top: 24px;
+    padding-bottom: 24px;
+   padding-right: 156px;
+}
 .live-connection {
     color: #434455;
 }
@@ -104,7 +151,7 @@ body {
 
     font-weight: 700;
     line-height: 1.07;
-
+padding: 188px 472px 292px 472px;
 
 }
 
@@ -123,6 +170,9 @@ body {
     /* 150% */
     letter-spacing: 0.64px;
     cursor: pointer;
+    text-align: center;
+    
+    padding: 48px 635px 188px 636px;
 }
 
 .button-type:hover,
@@ -132,6 +182,30 @@ body {
 
 
 /* Секція наших переваг */
+.second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0 ,0 ,0);
+    border: 0;
+
+}
+.title-second {
+    list-style-type: none;
+    display:flex
+    gap: 24px;
+}
+.first-element {
+    width: calc((100%-72px)/4);
+}
+
 .advantages-title {
     color: var(--NAVY-BLUE, #2E2F42);
   
@@ -142,26 +216,34 @@ body {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .text-advantages {
     color: var(--SLATE, #434455);
     
-    font-family: Roboto;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    /* 150% */
+    line-height: 1.5;
+   
     letter-spacing: 0.32px;
+    text-align: center;
+}
+.list-style {
+    list-style-type: none;
 }
 
 /* Наша команда */
-.team-style {
+.team {
     background-color: #F4F4FD;
+    padding-top: 120px ;
+    padding-bottom: 120px;
 }
 
-.page-title {
+.page-team-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -170,13 +252,24 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
+ 
     letter-spacing: 0.72px;
     text-transform: capitalize;
     background: var(--CLOUD, #F4F4FD);
+    margin-bottom: 72px;
 }
 
-.team-color {
+.team-list-style {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.team-list-item {
+    flex-basis: calc((100% - 72px) /4);
+border-radius: 0px 0px 4px 4px;
+text-align: center;
     background-color: #FFFFFF;
 }
 
@@ -208,11 +301,11 @@ body {
     background: var(--CLOUD, #F4F4FD);
 }
 
-.list-style {
-    list-style-type: none;
-}
 
 /* Портфоліо */
+.portfolio {
+    padding: 120px 0;
+}
 .title-section {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -225,6 +318,12 @@ body {
     /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+.portfolio-list {
+ list-style-type: none;
+ display: flex;
+flex-wrap: wrap;
+gap: 24px;
 }
 
 .advantages-title {
@@ -255,6 +354,8 @@ body {
 /* Футер сторінки */
 .footer-style {
     background-color: #2e2f42;
+    padding-top: 120px;
+
 }
 
 .logo-style {
@@ -269,12 +370,18 @@ body {
 
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 16px;
+    padding-right: 1169px;
 
 
 }
 
 .logo-style .studio {
     color: #f4f4fd
+    padding-top: 100px;
+    padding-right: 1169px;
+    padding-bottom: 16px;
 }
 
 .footer-text {
@@ -289,6 +396,9 @@ body {
     /* 150% */
     letter-spacing: 0.32px;
     background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-right: 1169px;
     
     
 }
