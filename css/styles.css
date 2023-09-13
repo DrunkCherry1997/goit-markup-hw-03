@@ -22,6 +22,12 @@ ol {
 .header {
 padding-bottom: 188px;
 background-color: var(--WHITE, #FFF);
+border-bottom: 1px solid #e7e9fc
+}
+
+.navigation {
+    display: flex;
+    align-items: center
 }
 .header .logo-style {
     content: "Web";
@@ -35,6 +41,7 @@ background-color: var(--WHITE, #FFF);
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px
 
 
 }
@@ -42,6 +49,7 @@ background-color: var(--WHITE, #FFF);
 .logo-style {
     text-decoration: none;
     padding: 24px 1169px 24px 156px; 
+    margin-right: 76px
     
  
    
@@ -50,11 +58,13 @@ background-color: var(--WHITE, #FFF);
 .header .logo-style span.first-studio {
     color: #2e2f42;
     padding: 24px 1169px 24px 156px;
+    margin-right: 76px
 }
 
 .first-studio {
     color: #2e2f42;
 padding: 24px 1169px 24px 156px;
+margin-right: 76px
 }
 
 .navigation-list-style {
