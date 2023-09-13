@@ -75,13 +75,11 @@ padding: 24px 1169px 24px 156px;
 margin-right: 76px
 }
 
-.navigation-list-style {
+.navigation-list {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    padding-left: 347px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
 }
 
 .menu-nav {
@@ -99,6 +97,7 @@ margin-right: 76px
 
 .link {
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .menu-nav:hover,
@@ -137,15 +136,13 @@ margin-right: 76px
     color: #404bbf
 }
 
-.list-adress-style {
+.list-adress {
     list-style-type: none;
     display: flex;
     gap: 40px;
     justify-content: end; 
     
-    padding-top: 24px;
-    padding-bottom: 24px;
-   padding-right: 156px;
+    
 }
 .live-connection {
     color: #434455;
