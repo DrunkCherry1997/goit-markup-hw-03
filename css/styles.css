@@ -295,9 +295,7 @@ max-width: 496px;
     margin-bottom: 8px;
 }
 
-.job-position {
-   text-align: center; 
-}
+
 
 .team-list-item {
     flex-basis: calc((100% - 72px) /4);
