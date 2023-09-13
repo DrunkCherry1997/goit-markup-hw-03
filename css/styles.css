@@ -24,7 +24,7 @@ padding-bottom: 188px;
 background-color: var(--WHITE, #FFF);
 border-bottom: 1px solid #e7e9fc
 }
-.container1 {
+.container {
     display: flex;
 }
 
