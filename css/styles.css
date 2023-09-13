@@ -24,8 +24,14 @@ padding-bottom: 188px;
 background-color: var(--WHITE, #FFF);
 border-bottom: 1px solid #e7e9fc
 }
-.container {
+.container-first {
     display: flex;
+}
+
+.container-nav {
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
 }
 
 .navigation {
