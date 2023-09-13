@@ -376,6 +376,8 @@ gap: 24px;
 .footer-style {
     background-color: #2e2f42;
     padding-top: 120px;
+    padding: 100px 0;
+
 
 }
 
@@ -394,6 +396,8 @@ gap: 24px;
     padding-top: 100px;
     padding-bottom: 16px;
     padding-right: 1169px;
+    display: inline-block;
+    margin-bottom: 16px;
 
 
 }
