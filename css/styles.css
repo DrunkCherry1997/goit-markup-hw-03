@@ -93,9 +93,9 @@ margin-right: 76px
 
 .menu-nav {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
+    
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 500;
     line-height: 24px;
     /* 150% */
@@ -119,9 +119,9 @@ margin-right: 76px
 .adress-style {
     color: var(--SLATE, #434455);
     /* Body */
-    font-family: Roboto;
+   
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 400;
     line-height: 24px;
     /* 150% */
@@ -196,7 +196,7 @@ max-width: 496px;
     font-family: "Roboto",
         sans-serif;
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 500;
     line-height: 24px;
     /* 150% */
@@ -248,9 +248,9 @@ clip: rect(0 0 0 0); overflow: hidden;
 .advantages-title {
     color: var(--NAVY-BLUE, #2E2F42);
   
-    font-family: Roboto;
+   
     font-size: 20px;
-    font-style: normal;
+   
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
@@ -264,7 +264,7 @@ clip: rect(0 0 0 0); overflow: hidden;
     
     
     font-size: 16px;
-    font-style: normal;
+   
     font-weight: 400;
     line-height: 1.5;
    
@@ -286,9 +286,9 @@ clip: rect(0 0 0 0); overflow: hidden;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
-    font-family: Roboto;
+   
     font-size: 36px;
-    font-style: normal;
+    
     font-weight: 700;
     line-height: 1.11;
  
@@ -326,9 +326,9 @@ text-align: center;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 3 */
-    font-family: Roboto;
+    
     font-size: 20px;
-    font-style: normal;
+   
     font-weight: 500;
     line-height: 24px;
     /* 120% */
@@ -340,9 +340,9 @@ text-align: center;
     color: var(--SLATE, #434455);
     text-align: center;
     /* Body */
-    font-family: Roboto;
+  
     font-size: 16px;
-    font-style: normal;
+ 
     font-weight: 400;
     line-height: 24px;
     /* 150% */
@@ -359,9 +359,9 @@ text-align: center;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
-    font-family: Roboto;
+   
     font-size: 36px;
-    font-style: normal;
+   
     font-weight: 700;
     line-height: 40px;
     /* 111.111% */
@@ -390,9 +390,9 @@ row-gap: 48px;
 .advantages-title {
     color: var(--NAVY-BLUE, #2E2F42);
    
-    font-family: Roboto;
+    
     font-size: 20px;
-    font-style: normal;
+    
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
@@ -402,9 +402,9 @@ row-gap: 48px;
 .text-advantages {
     color: var(--SLATE, #434455);
 
-    font-family: Roboto;
+   
     font-size: 16px;
-    font-style: normal;
+  
     font-weight: 400;
     line-height: 24px;
     /* 150% */
@@ -454,9 +454,9 @@ row-gap: 48px;
    
     color: var(--CLOUD, #F4F4FD);
     /* Body */
-    font-family: Roboto;
+    
     font-size: 16px;
-    font-style: normal;
+   
     font-weight: 400;
     line-height: 24px;
     /* 150% */
