@@ -184,7 +184,7 @@ margin-right: 0;
     letter-spacing: 1.12px;
     font-family: Roboto;
     color: #ffffff;
-
+    max-width: 496px;
     font-weight: 700;
     line-height: 1.07;
     margin-bottom: 48px;
@@ -209,7 +209,7 @@ margin-right: 0;
     letter-spacing: 0.64px;
     cursor: pointer;
     text-align: center;
-    
+    height: 56px;
     min-width: 169px;
    margin: 0 auto;
     border: none;
