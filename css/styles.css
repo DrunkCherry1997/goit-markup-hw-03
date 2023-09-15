@@ -100,8 +100,8 @@ border-bottom: 1px solid #e7e9fc
     font-size: 16px;
     
     font-weight: 500;
-    line-height: 24px;
-    /* 150% */
+    line-height: 1.5em;
+
     letter-spacing: 0.32px;
 
 }
@@ -110,6 +110,8 @@ border-bottom: 1px solid #e7e9fc
 .link {
     text-decoration: none;
     padding: 24px 0;
+    display: block;
+ 
 }
 
 .menu-nav:hover,
@@ -187,7 +189,8 @@ margin-right: 0;
     max-width: 496px;
     font-weight: 700;
     line-height: 1.07;
-    margin-bottom: 48px;
+  
+    margin: 0 auto 48px;
 
 
 
@@ -259,10 +262,10 @@ clip: rect(0 0 0 0); overflow: hidden;
    
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
+   
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    text-align: center;
+    
 }
 
 .text-advantages {
@@ -272,10 +275,10 @@ clip: rect(0 0 0 0); overflow: hidden;
     font-size: 16px;
    
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.5em ;
    
     letter-spacing: 0.32px;
-    text-align: center;
+   
 }
 .list-style {
     list-style-type: none;
@@ -315,7 +318,7 @@ clip: rect(0 0 0 0); overflow: hidden;
 }
 
 .advantages-title {
-    text-align: center; 
+   
     margin-bottom: 8px;
 }
 
@@ -350,10 +353,10 @@ text-align: center;
     font-size: 16px;
  
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5em;
     /* 150% */
     letter-spacing: 0.32px;
-    background: var(--CLOUD, #F4F4FD);
+    
 }
 
 
@@ -405,17 +408,7 @@ row-gap: 48px;
     letter-spacing: 0.02em;
 }
 
-.text-advantages {
-    color: var(--SLATE, #434455);
 
-   
-    font-size: 16px;
-  
-    font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
-}
 
 
 /* Футер сторінки */
@@ -464,6 +457,7 @@ row-gap: 48px;
     /* 150% */
     letter-spacing: 0.32px;
     background-color: var(--NAVY-BLUE, #2E2F42);
+    max-width: 264px;
     
     
 }
